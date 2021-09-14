@@ -70,6 +70,9 @@ header .header_icons .fa-search {
 
 .video_info .video_metadata .titleAndBtn .title {
   margin-right: var(--padding);
+}
+
+.video_info .video_metadata .titleAndBtn .title.clamp {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
@@ -78,6 +81,10 @@ header .header_icons .fa-search {
 
 .video_info .video_metadata .titleAndBtn .moreshow {
   height: 100%;
+}
+
+.video_info .video_metadata .titleAndBtn .moreshow.clicked {
+  transform: rotate(180deg);
 }
 
 .video_info .video_metadata .views {
